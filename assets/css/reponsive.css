@@ -1,0 +1,63 @@
+/*PC*/
+@media (min-width: 1024px) {
+    
+}
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/*Mobie*/
+@media(max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+    #header .nav{
+        display: block;
+    }
+    #header .nav li {
+        display: block !important;
+    }
+    #header .menu-btn{
+        display: block !important;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header >.nav >li:first-child{
+        display: inline-block !important;
+    }
+    #header .nav .subnav{
+        position: inherit;
+    }
+    .mb-col-full{
+        width: 100% !important;
+    }
+    .mb-mt-16{
+        margin-top:16px ;
+    }
+    #content .member-img{
+        width: 65%;
+    }
+    #content .tour-dates .tickket-quantity li{
+        padding: 4px 16px;
+    }
+    #content .buy-ticket{
+        padding: 16px 18px;
+    }
+    #content .form-control{
+        padding: 16px;
+    }
+    #content .content-section .send{
+
+        padding: 17px;
+    }
+    #content .menu a{
+        padding: 14px;
+    } 
+    #footer .footer-icons i{
+        font-size: 48px;
+    }
+    #footer .made-by{
+        font-size: 39px;
+    }
+}
